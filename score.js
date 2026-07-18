@@ -16,13 +16,13 @@ function addScore(){
 
     score++;
 
-    playSE(se.score);
+    //playSE(se.score);
 
     if(score > bestScore){
 
         bestScore = score;
 
-        playSE(se.record);
+        //playSE(se.record);
 
         localStorage.setItem(
             "bestScore",
@@ -44,7 +44,7 @@ levelUpScale = 2.5;
 
 
 
-    playSE(se.record);
+   // playSE(se.record);
 
 }
     enemySpeed = Math.min(
