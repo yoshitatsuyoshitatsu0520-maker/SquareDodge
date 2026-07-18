@@ -1,0 +1,67 @@
+/* =======================
+   全体
+======================= */
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+
+    background: #222;
+
+    overflow: hidden;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100vw;
+    height: 100vh;
+
+}
+
+/* =======================
+   ゲーム画面
+======================= */
+
+#gameCanvas{
+
+    background: white;
+
+    display: block;
+
+    touch-action: none;
+
+}
+
+#nameInput{
+
+    position:absolute;
+
+    left:50%;
+    top:50%;
+
+    transform:translate(-50%,-50%);
+
+    width:220px;
+
+    height:45px;
+
+    font-size:24px;
+
+    text-align:center;
+
+    border:3px solid black;
+
+    border-radius:10px;
+
+    outline:none;
+
+    z-index:100;
+
+}
